@@ -53,7 +53,7 @@ Advanced composition
 
 Contributors
 -----------
-[![jaredwilli](https://avatars3.githubusercontent.com/u/218374?s=460&v=4)](https://github.com/jaredwilli)
+[![jaredwilli](https://avatars0.githubusercontent.com/u/218374?s=40&v=4)](https://github.com/jaredwilli)
 
 
 License
