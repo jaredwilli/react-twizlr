@@ -1,5 +1,7 @@
 # react-twizlr
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jaredwilli/react-twizlr.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/react-twizlr.svg)](https://badge.fury.io/js/react-twizlr)
 [![Build Status](https://travis-ci.org/jaredwilli/react-twizlr.svg)](https://travis-ci.org/jaredwilli/react-twizlr)
 [![NPM Status](http://img.shields.io/npm/dm/react-twizlr.svg?style=flat)](https://www.npmjs.org/package/react-twizlr)
