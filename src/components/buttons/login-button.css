@@ -1,0 +1,62 @@
+/* login-button.css */
+
+.twizlr.login-button {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    margin: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.twizlr.focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.twizlr.login-button i {
+    border-right: 1px solid #000;
+    padding: 0 10px;
+    height: 35px;
+    width: 15px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.twizlr.login-button .btn-text {
+    padding: 0 10px;
+}
+
+
+.twizlr.facebook {
+    background: #3a589a;
+    border-color: #2e457b;
+}
+.twizlr.facebook:hover {
+    background: #5378ca;
+}
+
+.twizlr.google {
+    background: #df4a33;
+    border-color: #b93d2a;
+}
+.twizlr.google:hover {
+    background: #ef4d34;
+}
+
+.twizlr.twitter {
+    background: #51aaf1;
+    border-color: #4594d0;
+}
+.twizlr.twitter:hover {
+    background: #4299de;
+}
+
+.twizlr.github {
+    background: #444444;
+    border-color: #373737;
+}
+.twizlr.github:hover {
+    background: #555;
+}
