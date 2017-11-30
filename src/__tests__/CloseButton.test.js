@@ -4,9 +4,9 @@ import { shallow } from 'enzyme';
 
 import * as setupTests from '../setupTests';
 
-import Button from '../components/buttons/Button';
+import CloseButton from '../components/buttons/CloseButton';
 
-describe('Button component', () => {
+describe('CloseButton component', () => {
   let buttonClicks = 0;
 
   const buttonClicked = jest.fn(() => {
@@ -16,7 +16,7 @@ describe('Button component', () => {
 
   it('throws an error if onClick is excluded', () => {
     let stub = sinon.stub(console, 'error');
-    shallow(<Button />);
+    shallow(<CloseButton />);
 
     expect(stub.calledOnce).toEqual(true);
 
@@ -24,14 +24,12 @@ describe('Button component', () => {
   });
 
   it('should have initial props with bare minimum button definition with only onClick', () => {
-    const wrapper = shallow(<Button onClick={() => buttonClicked()} />);
+    const wrapper = shallow(<CloseButton onClick={() => buttonClicked()} />);
 
     // console.log(wrapper.debug());
     expect(wrapper.find('button').length).toBe(1);
     expect(wrapper.find('button').props().type).toBe('button');
-    expect(wrapper.find('button').props().className).toBe(
-      'twizlr button primary'
-    );
+    expect(wrapper.find('button').props().className).toBe('twizlr close ');
 
     expect(buttonClicked()).toEqual('buttonClick called!');
     expect(buttonClicks).toEqual(1);
@@ -42,10 +40,12 @@ describe('Button component', () => {
 
   it('should set the props correctly', () => {
     const wrapper = shallow(
-      <Button className="delete" onClick={() => buttonClicked()}>
-        <i className="fa fa-times" />
-        Delete
-      </Button>
+      <CloseButton
+        icon="times"
+        text="Delete"
+        className="delete"
+        onClick={() => buttonClicked()}
+      />
     );
 
     // console.log(wrapper.debug());
@@ -53,10 +53,10 @@ describe('Button component', () => {
     expect(wrapper.find('button').props().type).toBe('button');
 
     expect(wrapper.find('i').props().className).toEqual('fa fa-times');
-    expect(wrapper.find('button').text()).toBe('Delete');
+    expect(wrapper.find('span').text()).toBe('Delete');
 
     expect(wrapper.find('button').props().className).toBe(
-      'twizlr button delete'
+      'twizlr close delete'
     );
 
     wrapper.find('button').simulate('click');

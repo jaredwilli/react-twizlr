@@ -1,100 +1,96 @@
 /* Button.css */
 
 .twizlr.button {
-    color: #fff;
-    border-radius: 4px;
-    font-size: 14px;
-    padding: 6px 10px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.twizlr.button:hover {
-
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px 10px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .twizlr:focus {
-    outline: 0;
+  outline: 0;
 }
 
 .twizlr .margin-right {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .twizlr.primary {
-    background: #0275d8;
+  background: #0275d8;
 }
 .twizlr.primary:hover {
-    background: #005ba5;
+  background: #005ba5;
 }
 .twizlr.primary-text {
-    color: #0275d8;
+  color: #0275d8;
 }
 
 .twizlr.success {
-    background: #5cb85c;
-    border: 1px solid #367e36;
+  background: #5cb85c;
+  border: 1px solid #367e36;
 }
 .twizlr.success:hover {
-    background: #367e36;
+  background: #367e36;
 }
 .twizlr.success-text {
-    color: #5cb85c;
+  color: #5cb85c;
 }
 
 .twizlr.info {
-    background: #5bc0de;
-    border: 1px solid #278eaa;
+  background: #5bc0de;
+  border: 1px solid #278eaa;
 }
-.twizlr.info:hover{
-    background: #278eaa;
+.twizlr.info:hover {
+  background: #278eaa;
 }
 .twizlr.info-text {
-    color: #5bc0de;
+  color: #5bc0de;
 }
 
 .twizlr.warning {
-    background: #f0ad4e;
-    border: 1px solid #ad7525;
+  background: #f0ad4e;
+  border: 1px solid #ad7525;
 }
 .twizlr.warning:hover {
-    background: #ad7525;
+  background: #ad7525;
 }
 .twizlr.warning-text {
-    color: #f0ad4e;
+  color: #f0ad4e;
 }
 
 .twizlr.danger {
-    background: #d9534f;
-    border: 1px solid #990f0f;
+  background: #d9534f;
+  border: 1px solid #990f0f;
 }
 .twizlr.danger:hover {
-    background: #990f0f;
+  background: #990f0f;
 }
 .twizlr.danger-text {
-    color: #d9534f;
+  color: #d9534f;
 }
 
 .twizlr.inverse {
-    background: #636c72;
-    border: 1px solid #454e55;
-    color: #f7f7f7;
+  background: #636c72;
+  border: 1px solid #454e55;
+  color: #f7f7f7;
 }
 .twizlr.inverse:hover {
-    background: #454e55;
+  background: #454e55;
 }
 .twizlr.inverse-text {
-    color: #636c72;
+  color: #636c72;
 }
 
 .twizlr.faded {
-    background: #f7f7f7;
-    border: 1px solid #dad5d5;
-    color: #636c72;
+  background: #f7f7f7;
+  border: 1px solid #dad5d5;
+  color: #636c72;
 }
 .twizlr.faded:hover {
-    background: #dad5d5;
+  background: #dad5d5;
 }
 .twizlr.faded-text {
-    color: #f7f7f7;
+  color: #f7f7f7;
 }

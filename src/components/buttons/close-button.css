@@ -1,16 +1,16 @@
 /* Button.css */
 
 .twizlr.close {
-    background: none;
-    border: 0;
-    color: #333;
-    font-size: 14px;
-    padding: 6px 10px;
-    margin: 5px;
-    vertical-align: middle;
+  background: none;
+  border: 0;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 10px;
+  margin: 5px;
+  vertical-align: middle;
 }
 
 .twizlr.close:hover {
-    color: #D0021B;
-    cursor: pointer;
+  color: #d0021b;
+  cursor: pointer;
 }
