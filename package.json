@@ -70,8 +70,8 @@
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17",
-    "react-styleguidist": "^6.0.33",
+    "react-scripts": "4.0.0",
+    "react-styleguidist": "^11.1.2",
     "reactcss": "^1.2.3",
     "sinon": "^4.1.2"
   },
