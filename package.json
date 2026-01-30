@@ -70,10 +70,10 @@
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17",
+    "react-scripts": "5.0.0",
     "react-styleguidist": "^6.0.33",
     "reactcss": "^1.2.3",
-    "sinon": "^4.1.2"
+    "sinon": "^16.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
